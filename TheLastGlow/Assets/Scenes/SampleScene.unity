@@ -565,7 +565,7 @@ Rigidbody:
   m_ImplicitTensor: 0
   m_UseGravity: 0
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 2
   m_Constraints: 0
   m_CollisionDetection: 1
 --- !u!114 &992263174
@@ -577,10 +577,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 992263170}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4af33fe6c2a5f084f90505694c543fe5, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d951c78c572ec24aa0b2ebaf4d4c068, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.7
+  boost: 2
+  mainCamera: {fileID: 963194225}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
