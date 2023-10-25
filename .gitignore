@@ -71,3 +71,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /TheLastGlow/Library
+<<<<<<< HEAD
+=======
+/TheLastGlow/Temp
+>>>>>>> 8e523e76afe253c4a20683a9a58fc63dff3f151f
