@@ -33,6 +33,6 @@ public class CharacterMovement : MonoBehaviour
             defSpeed = speed;
         }
         rb.MovePosition(rb.position + dir * defSpeed * Time.fixedDeltaTime);
-        mainCamera.transform.position += dir * defSpeed * Time.fixedDeltaTime;
+    //    mainCamera.transform.position += dir * defSpeed * Time.fixedDeltaTime;
     }
 }

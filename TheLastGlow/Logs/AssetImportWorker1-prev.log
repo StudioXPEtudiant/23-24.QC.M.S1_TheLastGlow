@@ -15,7 +15,7 @@ C:/TheLastGlow/23-24.QC.M.S1_TheLastGlow/TheLastGlow
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52169
+52466
 Successfully changed project path to: C:/TheLastGlow/23-24.QC.M.S1_TheLastGlow/TheLastGlow
 C:/TheLastGlow/23-24.QC.M.S1_TheLastGlow/TheLastGlow
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/TheLastGlow/23-24.QC.M.S1_TheLastGlow/TheLastGlow
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18628] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 3011840896 [EditorId] 3011840896 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JIB15SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15800] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 1685335127 [EditorId] 1685335127 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JIB15SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18628] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 3011840896 [EditorId] 3011840896 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JIB15SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15800] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 1685335127 [EditorId] 1685335127 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JIB15SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 23.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006810 seconds.
-- Loaded All Assemblies, in  0.312 seconds
+Registered in 0.006108 seconds.
+- Loaded All Assemblies, in  0.265 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.209 seconds
-Domain Reload Profiling: 519ms
-	BeginReloadAssembly (115ms)
+- Finished resetting the current domain, in  0.193 seconds
+Domain Reload Profiling: 456ms
+	BeginReloadAssembly (83ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (112ms)
-		LoadAssemblies (112ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (81ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (110ms)
-			TypeCache.Refresh (109ms)
-				TypeCache.ScanAssembly (100ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (99ms)
+				TypeCache.ScanAssembly (89ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (209ms)
+	FinalizeReload (193ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (160ms)
+		SetupLoadedEditorAssemblies (149ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (104ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (92ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,150 +115,75 @@ Domain Reload Profiling: 519ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.543 seconds
-Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.481 seconds
+Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.429 seconds
-Domain Reload Profiling: 968ms
-	BeginReloadAssembly (112ms)
+- Finished resetting the current domain, in  0.411 seconds
+Domain Reload Profiling: 889ms
+	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
+		CreateAndSetChildDomain (15ms)
 	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (366ms)
-		LoadAssemblies (286ms)
+	LoadAllAssembliesAndSetupDomain (303ms)
+		LoadAssemblies (238ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (142ms)
-			TypeCache.Refresh (126ms)
-				TypeCache.ScanAssembly (115ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (429ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (105ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (411ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (317ms)
+		SetupLoadedEditorAssemblies (308ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (233ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (223ms)
 			ProcessInitializeOnLoadMethodAttributes (19ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (56.6 KB). Loaded Objects now: 3700.
-Memory consumption went from 128.1 MB to 128.0 MB.
-Total: 2.250300 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.059000 ms MarkObjects: 1.894600 ms  DeleteObjects: 0.078200 ms)
+Unloading 38 unused Assets / (57.0 KB). Loaded Objects now: 3701.
+Memory consumption went from 128.4 MB to 128.4 MB.
+Total: 2.269200 ms (FindLiveObjects: 0.164100 ms CreateObjectMapping: 0.059400 ms MarkObjects: 1.961500 ms  DeleteObjects: 0.083300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1463834.795888 seconds.
-  path: Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_3.asset
-  artifactKey: Guid(4330b241071554d4b94c89b486f70035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_3.asset using Guid(4330b241071554d4b94c89b486f70035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361639bfe69d1bc15d9256a8f6fb2984') in 0.241844 seconds
+  Time since last request: 1469445.018452 seconds.
+  path: Assets/Jacob⬜/Prefabs/Layer.prefab
+  artifactKey: Guid(16d21cdd3b5b038408c315d10032c122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jacob⬜/Prefabs/Layer.prefab using Guid(16d21cdd3b5b038408c315d10032c122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709a4f3318b6a7ee0ba1bbc4862f6666') in 0.075169 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_14.asset
-  artifactKey: Guid(f7f50e20fce88644db195af6c062da89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_14.asset using Guid(f7f50e20fce88644db195af6c062da89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbc8c47ab4585ea9e0ea14cb3d6269b') in 0.023052 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_9.asset
-  artifactKey: Guid(9c597aa534387d34dabd3915fbcc1810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_9.asset using Guid(9c597aa534387d34dabd3915fbcc1810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb9af1d0550791f271582b893750e24') in 0.007039 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_15.asset
-  artifactKey: Guid(9d6edb20918ed8244a5ff6ab57d137c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_15.asset using Guid(9d6edb20918ed8244a5ff6ab57d137c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5677ad2eeddee804ad177f2e1169d3ce') in 0.007402 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_5.asset
-  artifactKey: Guid(70305cec64b34a245b2f7b2de8a0f809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_5.asset using Guid(70305cec64b34a245b2f7b2de8a0f809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02b146ac26f06b6f3ac44a270f20c24') in 0.007246 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_17.asset
-  artifactKey: Guid(c49d2b70017e1f94daeef04d38cf0886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_17.asset using Guid(c49d2b70017e1f94daeef04d38cf0886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6007d8c4a35da9f47a619d3bae1c46ad') in 0.009039 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_18.asset
-  artifactKey: Guid(f42570189618e7a4b84eacdf2a06bf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_18.asset using Guid(f42570189618e7a4b84eacdf2a06bf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f69f412dea2216217a612c36a8148d7') in 0.008414 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_19.asset
-  artifactKey: Guid(051e778ce60c2e24895f69ec7df6f42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_19.asset using Guid(051e778ce60c2e24895f69ec7df6f42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371f606300ab5456b33021fd5abd4bf1') in 0.009468 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_12.asset
-  artifactKey: Guid(23d6717448dd4284790e3112cd9acb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_12.asset using Guid(23d6717448dd4284790e3112cd9acb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc69f5c16ac1f217f1fee1a971f2b0d') in 0.008425 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_23.asset
-  artifactKey: Guid(2000a1078dee39b41a84239d6a76c11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jacob⬜/Tilemap/Forest/Tile Palette/Textures/Grass path_23.asset using Guid(2000a1078dee39b41a84239d6a76c11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99560c27e9bb08bba9f2782301b69c0e') in 0.005897 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 30
