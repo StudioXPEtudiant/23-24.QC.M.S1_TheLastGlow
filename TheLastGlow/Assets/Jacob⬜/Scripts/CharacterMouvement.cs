@@ -9,6 +9,7 @@ public class CharacterMovement : MonoBehaviour
     public float boost = 2;
     Rigidbody rb;
     Vector3 dir;
+    public Animator animator;
 
     public GameObject mainCamera;
     void Start()
@@ -23,6 +24,9 @@ public class CharacterMovement : MonoBehaviour
     {
         dir.x = Input.GetAxisRaw("Horizontal");
         dir.z = Input.GetAxisRaw("Vertical");
+        
+        animator.SetFloat("Horizontal", dir.x);
+        animator.SetFloat("Speed", dir.sqrMagnitude);
         if (Input.GetKeyDown("left shift"))
         {
             defSpeed = speed;
@@ -32,7 +36,11 @@ public class CharacterMovement : MonoBehaviour
         {
             defSpeed = speed;
         }
+       
+    }
+
+    void FixedUpdate()
+    {
         rb.MovePosition(rb.position + dir * defSpeed * Time.fixedDeltaTime);
-    //    mainCamera.transform.position += dir * defSpeed * Time.fixedDeltaTime;
     }
 }
