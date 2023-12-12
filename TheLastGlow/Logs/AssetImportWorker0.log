@@ -2079,3 +2079,11 @@ Received Import Request.
 Start importing Assets/Jacob⬜/Prefabs/Terrain.prefab using Guid(5109ee41ebfbca74f92cbdc72057cbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06efed84c5a4385d748887ea1f52cb66') in 0.004147 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 96.008241 seconds.
+  path: Assets/Jacob⬜/Prefabs/Player.prefab
+  artifactKey: Guid(f033b1cda0d46d2428382efeee257232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jacob⬜/Prefabs/Player.prefab using Guid(f033b1cda0d46d2428382efeee257232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a890364db125fa4e385bd673a3c04fb') in 0.059958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
