@@ -6,20 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3846ffde-f4c0-4e65-8ef6-0bc69c6b5def" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TheLastGlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheLastGlow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Anim/Grey_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Anim/Grey_Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Anim/Grey_Walk_Right.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Anim/Grey_Walk_Right.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Anim/Sprite.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Anim/Sprite.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Editor/TerrainGeneratorEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Editor/TerrainGeneratorEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Prefabs/Terrain.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Prefabs/Terrain.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Scene/JacobScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Scene/JacobScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Scripts/Terrain/TerrainGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Scripts/Terrain/TerrainGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Textures/Grey/GreyPlayerWalkLeft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Textures/Grey/GreyPlayerWalkLeft.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Textures/Grey/GreyPlayerWalkRight.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Textures/Grey/GreyPlayerWalkRight.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +122,7 @@
       <workItem from="1704679937835" duration="1397000" />
       <workItem from="1704841041821" duration="2015000" />
       <workItem from="1704843087940" duration="4190000" />
-      <workItem from="1705448817369" duration="2942000" />
+      <workItem from="1705448817369" duration="3967000" />
     </task>
     <servers />
   </component>
