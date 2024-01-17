@@ -6,22 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="3846ffde-f4c0-4e65-8ef6-0bc69c6b5def" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TheLastGlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheLastGlow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Materials/PlayerSprite.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Materials/PlayerSprite.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Prefabs/Tree1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Prefabs/Tree1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Prefabs/Tree1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Prefabs/Tree1.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Scripts/CharacterMouvement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Scripts/CharacterMouvement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Textures/Grey-Player.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Textures/Grey-Player.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ben/prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ben/prefab/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Anim/Grey_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Anim/Grey_Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Anim/Grey_Walk_Right.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Anim/Grey_Walk_Right.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Anim/Sprite.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Anim/Sprite.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Editor/TerrainGeneratorEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Editor/TerrainGeneratorEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Prefabs/Terrain.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Prefabs/Terrain.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Scene/JacobScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Scene/JacobScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Scripts/Terrain/TerrainGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Scripts/Terrain/TerrainGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Textures/Grey/GreyPlayerWalkLeft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Textures/Grey/GreyPlayerWalkLeft.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Jacob⬜/Textures/Grey/GreyPlayerWalkRight.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacob⬜/Textures/Grey/GreyPlayerWalkRight.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Jacob⬜/Scripts/Item.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Jacob⬜/Scripts/ItemController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Jacob⬜/Scripts/ItemPickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Jacob⬜/Scripts/Terrain/MeshController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Jacob⬜/terrain/ScriptableObjTerrainData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ben/CycleJourNuit.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -123,7 +127,14 @@
       <workItem from="1702324494126" duration="2228000" />
       <workItem from="1702326840049" duration="3131000" />
       <workItem from="1702405893866" duration="1675000" />
-      <workItem from="1702422194725" duration="1385000" />
+      <workItem from="1702422194725" duration="5469000" />
+      <workItem from="1704666144438" duration="6374000" />
+      <workItem from="1704675550879" duration="4303000" />
+      <workItem from="1704679915643" duration="14000" />
+      <workItem from="1704679937835" duration="1397000" />
+      <workItem from="1704841041821" duration="2015000" />
+      <workItem from="1704843087940" duration="4190000" />
+      <workItem from="1705448817369" duration="2942000" />
     </task>
     <servers />
   </component>

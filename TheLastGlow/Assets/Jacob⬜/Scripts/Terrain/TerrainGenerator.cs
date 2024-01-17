@@ -10,15 +10,15 @@ namespace Jacob_.Scripts
         public MeshRenderer meshRenderer;
         public MeshFilter meshFilter;
         public MeshCollider meshCollider;
+        public int radius;
         
         private static int vertexIndex = 0;
         private static List<Vector3> vertices = new List<Vector3>();
         private static List<int> triangles= new List<int>();
         private static List<Vector2> uvs = new List<Vector2>();
         public Mesh mesh;
-
         public bool[,,] voxelMap = new bool[VoxelData.chunkWidth, VoxelData.chunkHeight, VoxelData.chunkLength];
-        
+        public ScriptableObjTerrainData terrainData;
         public void UpdateChunk()
         {
             ClearMeshData();
@@ -33,22 +33,6 @@ namespace Jacob_.Scripts
                 }
             }
             CreateMesh();
-        }
-
-        public void CreateBaseTerrain(int x, int y, int z)
-        {
-            for (int i = 0; i < 6; i++)
-            {
-                for (int p = 0; p < 6; p++)
-                {
-                    int triangleIndex = VoxelData.voxelTris[i, p];
-                    vertices.Add(VoxelData.voxelVerts[triangleIndex] + new Vector3(x, y, z));
-                    triangles.Add(vertexIndex);
-
-                    uvs.Add(Vector2.zero);
-                    vertexIndex++;
-                }
-            }
         }
 
         public void ClearMeshData()

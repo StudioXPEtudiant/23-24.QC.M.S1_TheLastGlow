@@ -50,7 +50,9 @@ MonoBehaviour:
   meshRenderer: {fileID: 1326793073592347238}
   meshFilter: {fileID: 2491079252180250394}
   meshCollider: {fileID: 7201420892705657150}
+  radius: 0
   mesh: {fileID: 0}
+  terrainData: {fileID: 0}
 --- !u!33 &2491079252180250394
 MeshFilter:
   m_ObjectHideFlags: 0
